@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "150545793414",
+    "firebase_url": "https://xacovid.firebaseio.com",
+    "project_id": "xacovid",
+    "storage_bucket": "xacovid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150545793414:android:c130d97ad4525699756c07",
+        "android_client_info": {
+          "package_name": "com.example.infowindow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150545793414-8bgpfi9uqq1pc8f5ch948il7qe8giq4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGG1DSxd9s9L-U1gakBZj0-TkN3Sxotjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150545793414-8bgpfi9uqq1pc8f5ch948il7qe8giq4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

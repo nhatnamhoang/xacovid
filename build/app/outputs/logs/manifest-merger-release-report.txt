@@ -1,0 +1,628 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from [:app_settings] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/app_settings/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:location] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location/intermediates/library_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:google_maps_flutter] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_maps_flutter/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:google_sign_in] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_sign_in/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore_web/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core_web/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:location_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location_web/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth_web/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:connectivity] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:connectivity_macos] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity_macos/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/shared_preferences/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:sqflite] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b42ee0fd8541beec63436d63c78ade58/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/488ca2054cdd37b85444d0cbf4f6e7a5/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b4108364bd9ad021a3fb420140df05a7/firebase-analytics-16.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6dea37b768edbdd8e9813baa5d5707f1/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/11db4774b512d854676e90447f57f0ca/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3f3ffb5121f48c08e0729e444059d0e5/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e4d3efcff6ab4c8f9b3a5fa5c5df88c7/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9fc6c79de25b37bc1103e5b9ac4c7621/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b7decd8816508f2a4ede77e5fa602b7e/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/78511b50e470cef0fe69d9e26f6e94da/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/87714894644945057a21b5bdb448baa0/jetified-play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/5ea9d6613e6ac801b49dfe1e4ada6e1e/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/55c6d0cecd7a57ee3ee9e452920c9158/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/cb33347f4117da7a4cc42196fa521d2a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/51a918aee2fc12e06fa017a0f40fe708/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/984e0384f35a0d4e7d7eaaede3823cc7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c07af60a781b25db3e3c4f812f7908b4/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4c957d9c4fc0914cef2dfa30622fbaa5/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8917bba698826b6b2eabad07fc0382a7/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c21de8c6529a930241150baf36eff01c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c9d44148c8188db80f7e47d257222f99/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/97ca185b13c5ec43b4d53f6d3c99dc9b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/52aa3d88c504fafe3e6e545e13e560d3/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/60bbc91364d42c59d6d99d56b8df1984/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/80421bcd333d4220dd2d07c1c33b54e7/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/407fef99798a7fef522c8f04c7c02dcd/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/801d8fedae5e7e768e17eb15217fbfad/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7779fda9fd8a9eb351f8523e1177cd7/grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/d8da739b4c7459ed4be247c7cadb72f7/firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/197c27192a2f0e31b66cbbb8066f0258/protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:1-40:12
+	package
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:2:5-37
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:3:5-83
+MERGED from [:google_sign_in] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_sign_in/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_sign_in/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:4:5-79
+MERGED from [:location] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:5-79
+MERGED from [:location] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:5:5-81
+MERGED from [:location] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+MERGED from [:location] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:5:22-78
+application
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:12:5-39:19
+MERGED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b42ee0fd8541beec63436d63c78ade58/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b42ee0fd8541beec63436d63c78ade58/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/488ca2054cdd37b85444d0cbf4f6e7a5/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/488ca2054cdd37b85444d0cbf4f6e7a5/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b4108364bd9ad021a3fb420140df05a7/firebase-analytics-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b4108364bd9ad021a3fb420140df05a7/firebase-analytics-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6dea37b768edbdd8e9813baa5d5707f1/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6dea37b768edbdd8e9813baa5d5707f1/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e4d3efcff6ab4c8f9b3a5fa5c5df88c7/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e4d3efcff6ab4c8f9b3a5fa5c5df88c7/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9fc6c79de25b37bc1103e5b9ac4c7621/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9fc6c79de25b37bc1103e5b9ac4c7621/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b7decd8816508f2a4ede77e5fa602b7e/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b7decd8816508f2a4ede77e5fa602b7e/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/78511b50e470cef0fe69d9e26f6e94da/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/78511b50e470cef0fe69d9e26f6e94da/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/87714894644945057a21b5bdb448baa0/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/87714894644945057a21b5bdb448baa0/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/5ea9d6613e6ac801b49dfe1e4ada6e1e/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/5ea9d6613e6ac801b49dfe1e4ada6e1e/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/55c6d0cecd7a57ee3ee9e452920c9158/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/55c6d0cecd7a57ee3ee9e452920c9158/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/407fef99798a7fef522c8f04c7c02dcd/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/407fef99798a7fef522c8f04c7c02dcd/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:14:9-32
+	android:icon
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:15:9-43
+	android:name
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:13:9-57
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:16:9-123
+	android:value
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:16:66-121
+	android:name
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:16:20-65
+activity#com.example.infowindow.MainActivity
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:17:9-38:20
+	android:launchMode
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:19:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:22:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:23:13-55
+	android:configChanges
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:21:13-144
+	android:theme
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:20:13-47
+	android:name
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:18:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:31:13-33:40
+	android:value
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:33:17-37
+	android:name
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:32:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:35:17-68
+	android:name
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+MERGED from [:app_settings] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/app_settings/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:app_settings] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/app_settings/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_maps_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_maps_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_sign_in/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_sign_in/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/location_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity_macos] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity_macos/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity_macos] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity_macos/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/shared_preferences/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/shared_preferences/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b42ee0fd8541beec63436d63c78ade58/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b42ee0fd8541beec63436d63c78ade58/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/488ca2054cdd37b85444d0cbf4f6e7a5/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/488ca2054cdd37b85444d0cbf4f6e7a5/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b4108364bd9ad021a3fb420140df05a7/firebase-analytics-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b4108364bd9ad021a3fb420140df05a7/firebase-analytics-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6dea37b768edbdd8e9813baa5d5707f1/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6dea37b768edbdd8e9813baa5d5707f1/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/11db4774b512d854676e90447f57f0ca/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/11db4774b512d854676e90447f57f0ca/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3f3ffb5121f48c08e0729e444059d0e5/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3f3ffb5121f48c08e0729e444059d0e5/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e4d3efcff6ab4c8f9b3a5fa5c5df88c7/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e4d3efcff6ab4c8f9b3a5fa5c5df88c7/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9fc6c79de25b37bc1103e5b9ac4c7621/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9fc6c79de25b37bc1103e5b9ac4c7621/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b7decd8816508f2a4ede77e5fa602b7e/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b7decd8816508f2a4ede77e5fa602b7e/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/78511b50e470cef0fe69d9e26f6e94da/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/78511b50e470cef0fe69d9e26f6e94da/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/87714894644945057a21b5bdb448baa0/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/87714894644945057a21b5bdb448baa0/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/5ea9d6613e6ac801b49dfe1e4ada6e1e/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/5ea9d6613e6ac801b49dfe1e4ada6e1e/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/55c6d0cecd7a57ee3ee9e452920c9158/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/55c6d0cecd7a57ee3ee9e452920c9158/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/cb33347f4117da7a4cc42196fa521d2a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/cb33347f4117da7a4cc42196fa521d2a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/51a918aee2fc12e06fa017a0f40fe708/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/51a918aee2fc12e06fa017a0f40fe708/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/984e0384f35a0d4e7d7eaaede3823cc7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/984e0384f35a0d4e7d7eaaede3823cc7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c07af60a781b25db3e3c4f812f7908b4/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c07af60a781b25db3e3c4f812f7908b4/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4c957d9c4fc0914cef2dfa30622fbaa5/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4c957d9c4fc0914cef2dfa30622fbaa5/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8917bba698826b6b2eabad07fc0382a7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8917bba698826b6b2eabad07fc0382a7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c21de8c6529a930241150baf36eff01c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c21de8c6529a930241150baf36eff01c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c9d44148c8188db80f7e47d257222f99/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c9d44148c8188db80f7e47d257222f99/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/97ca185b13c5ec43b4d53f6d3c99dc9b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/97ca185b13c5ec43b4d53f6d3c99dc9b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/52aa3d88c504fafe3e6e545e13e560d3/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/52aa3d88c504fafe3e6e545e13e560d3/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/60bbc91364d42c59d6d99d56b8df1984/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/60bbc91364d42c59d6d99d56b8df1984/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/80421bcd333d4220dd2d07c1c33b54e7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/80421bcd333d4220dd2d07c1c33b54e7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/407fef99798a7fef522c8f04c7c02dcd/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/407fef99798a7fef522c8f04c7c02dcd/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/801d8fedae5e7e768e17eb15217fbfad/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/801d8fedae5e7e768e17eb15217fbfad/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7779fda9fd8a9eb351f8523e1177cd7/grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7779fda9fd8a9eb351f8523e1177cd7/grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/d8da739b4c7459ed4be247c7cadb72f7/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/d8da739b4c7459ed4be247c7cadb72f7/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/197c27192a2f0e31b66cbbb8066f0258/protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/197c27192a2f0e31b66cbbb8066f0258/protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:19:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
+ADDED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-122
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-123
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7779fda9fd8a9eb351f8523e1177cd7/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7779fda9fd8a9eb351f8523e1177cd7/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:connectivity] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:connectivity] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from [:connectivity] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:22-65
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_analytics] /Users/mac/Desktop/freelancer/flutter_locationupdates/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:14:17-127
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7307b5f0c262c6802a8a713653eb5008/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ba1166ec1776f7e6debcb46ee60b1b83/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/719f8f731c6c9afa4bdffe5f22b8be82/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8458432e53ab1a7108fd3375f522bdf5/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/483d0df745d91c1d16eacb2f3691e8df/jetified-firebase-iid-17.1.2/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/25a2cc1a1f27777b34bbaade74bcfac2/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4838ee057dee8aeffbbf7eae95366035/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/42c6355dca5fe0ec0f175da6566148d5/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7f7b04c4675229dbe2102c1066966812/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a270c56109aba82faedfa3c99035c480/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
