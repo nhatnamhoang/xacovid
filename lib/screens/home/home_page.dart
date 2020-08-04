@@ -3,6 +3,7 @@ import 'package:app_settings/app_settings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:infowindow/base/base_event.dart';
 import 'package:infowindow/base/base_widget.dart';
@@ -77,6 +78,7 @@ class _PlacesCovidListWidgetState extends State<PlacesCovidListWidget> {
   BitmapDescriptor sourceIcon;
   List<LatLng> polylineCoordinates = [];
   Set<Polyline> polylines = Set<Polyline>();
+  double zoomVal=5.0;
 
   @override
   void initState() {
@@ -153,6 +155,48 @@ class _PlacesCovidListWidgetState extends State<PlacesCovidListWidget> {
     widget.homeBloc.getListCovidData();
   }
 
+
+  Widget _zoomminusfunction() {
+
+    return Align(
+      alignment: Alignment.topLeft,
+      child: Container(
+        margin: EdgeInsets.only(top: 50),
+        child: IconButton(
+            icon: Icon(FontAwesomeIcons.searchMinus,color:Color(0xff6200ee)),
+            onPressed: () {
+              zoomVal--;
+              _minus( zoomVal);
+            }),
+      ),
+    );
+  }
+
+  Widget _zoomplusfunction() {
+
+    return Align(
+      alignment: Alignment.topRight,
+      child: Container(
+        margin: EdgeInsets.only(top: 50),
+        child: IconButton(
+            icon: Icon(FontAwesomeIcons.searchPlus,color:Color(0xff6200ee)),
+            onPressed: () {
+              zoomVal++;
+              _plus(zoomVal);
+            }),
+      ),
+    );
+  }
+
+  Future<void> _minus(double zoomVal) async {
+    final GoogleMapController controller = await _controller.future;
+    controller.animateCamera(CameraUpdate.newCameraPosition(CameraPosition(target: LatLng(widget.homeBloc.currentLocation.latitude, widget.homeBloc.currentLocation.longitude), zoom: zoomVal)));
+  }
+  Future<void> _plus(double zoomVal) async {
+    final GoogleMapController controller = await _controller.future;
+    controller.animateCamera(CameraUpdate.newCameraPosition(CameraPosition(target: LatLng(widget.homeBloc.currentLocation.latitude, widget.homeBloc.currentLocation.longitude), zoom: zoomVal)));
+  }
+
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
@@ -215,26 +259,32 @@ class _PlacesCovidListWidgetState extends State<PlacesCovidListWidget> {
                   );
                 }
 
-                return SlidingUpPanel(
-                    minHeight: onFocus == false ? h * 0.2 : 0,
-                    maxHeight: MediaQuery.of(context).size.height * 0.80,
-                    //parallaxEnabled: true,
-                    // parallaxOffset: 0.5,
-                    backdropEnabled: true,
-                    backdropOpacity: 0.2,
-                    backdropTapClosesPanel: true,
-                    isDraggable: true,
-                    controller: _pc,
-                    boxShadow: <BoxShadow>[
-                      BoxShadow(
-                          color: Colors.grey[400],
-                          blurRadius: 4,
-                          offset: Offset(1, 0))
-                    ],
-                    padding: EdgeInsets.only(
-                        top: 15, left: 10, bottom: 0, right: 10),
-                    panel: _renderPanelUI(data),
-                    body: _renderMap());
+                return Stack(
+                  children: [
+                    SlidingUpPanel(
+                        minHeight: onFocus == false ? h * 0.2 : 0,
+                        maxHeight: MediaQuery.of(context).size.height * 0.80,
+                        //parallaxEnabled: true,
+                        // parallaxOffset: 0.5,
+                        backdropEnabled: true,
+                        backdropOpacity: 0.2,
+                        backdropTapClosesPanel: true,
+                        isDraggable: true,
+                        controller: _pc,
+                        boxShadow: <BoxShadow>[
+                          BoxShadow(
+                              color: Colors.grey[400],
+                              blurRadius: 4,
+                              offset: Offset(1, 0))
+                        ],
+                        padding: EdgeInsets.only(
+                            top: 15, left: 10, bottom: 0, right: 10),
+                        panel: _renderPanelUI(data),
+                        body: _renderMap()),
+                    _zoomminusfunction(),
+                    _zoomplusfunction(),
+                  ],
+                );
               },
             ),
           ),
