@@ -54,7 +54,7 @@ class HomeBloc extends BaseBloc with ChangeNotifier {
     _covidListStreamController.close();
   }
 
-
+  BitmapDescriptor get sourceIcon => _sourceIcon;
   PolylinePoints get polylinePoints => _polylinePoints;
   List<LatLng> get polylineCoordinates => _polylineCoordinates;
   List<CovidData> get listCovidData => _listCovidData;
@@ -71,6 +71,7 @@ class HomeBloc extends BaseBloc with ChangeNotifier {
         .then((onValue) {
       _sourceIcon = onValue;
     });
+    notifyListeners();
   }
 
 
@@ -80,6 +81,7 @@ class HomeBloc extends BaseBloc with ChangeNotifier {
         .then((onValue) {
       _destinationIcon = onValue;
     });
+    notifyListeners();
   }
 
   void setCovidData(value) {

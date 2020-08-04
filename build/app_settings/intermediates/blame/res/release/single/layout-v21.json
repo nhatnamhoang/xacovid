@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app_settings/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app_settings/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "merged": "/Users/mac/Desktop/xacovid/build/app_settings/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
         "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app_settings/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "merged": "/Users/mac/Desktop/xacovid/build/app_settings/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/xacovid/build/app_settings/intermediates/res/merged/release/layout-v21/notification_action.xml",
         "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app_settings/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "merged": "/Users/mac/Desktop/xacovid/build/app_settings/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
         "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
     }
 ]

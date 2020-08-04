@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">150545793414-8bgpfi9uqq1pc8f5ch948il7qe8giq4o.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://xacovid.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">150545793414</string>
+    <string name="google_api_key" translatable="false">AIzaSyBGG1DSxd9s9L-U1gakBZj0-TkN3Sxotjc</string>
+    <string name="google_app_id" translatable="false">1:150545793414:android:c130d97ad4525699756c07</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBGG1DSxd9s9L-U1gakBZj0-TkN3Sxotjc</string>
+    <string name="google_storage_bucket" translatable="false">xacovid.appspot.com</string>
+    <string name="project_id" translatable="false">xacovid</string>
+</resources>

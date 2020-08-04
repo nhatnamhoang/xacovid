@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/res/values/values.xml",
@@ -18,6 +18,25 @@
                         "startOffsets": "5259,6437",
                         "endColumns": "67,166",
                         "endOffsets": "5322,6599"
+                    }
+                },
+                {
+                    "source": "/Users/mac/Desktop/xacovid/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "113",
+                        "startColumns": "4",
+                        "startOffsets": "8621",
+                        "endLines": "117",
+                        "endColumns": "12",
+                        "endOffsets": "8913"
                     }
                 },
                 {
@@ -40,26 +59,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mac/Desktop/freelancer/flutter_locationupdates/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "347"
-                    },
-                    "to": {
-                        "startLines": "113",
-                        "startColumns": "4",
-                        "startOffsets": "8621",
-                        "endLines": "117",
-                        "endColumns": "12",
-                        "endOffsets": "8913"
-                    }
-                },
-                {
-                    "source": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app/generated/res/google-services/release/values/values.xml",
+                    "source": "/Users/mac/Desktop/xacovid/build/app/generated/res/google-services/release/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

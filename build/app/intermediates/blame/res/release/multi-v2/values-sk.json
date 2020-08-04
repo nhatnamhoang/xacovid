@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-sk/values-sk.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/217554822b81bc801d6f5f1f6df62ba0/play-services-base-17.1.0/res/values-sk/values.xml",

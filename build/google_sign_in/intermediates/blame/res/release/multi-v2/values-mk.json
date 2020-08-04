@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_sign_in/intermediates/res/merged/release/values-mk/values-mk.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/google_sign_in/intermediates/incremental/mergeReleaseResources/merged.dir/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/98f59f8baf014055195d0038d8b03d31/jetified-play-services-basement-16.0.1/res/values-mk/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_sign_in/intermediates/incremental/mergeReleaseResources/merged.dir/values-mk/values-mk.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/google_sign_in/intermediates/res/merged/release/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/98f59f8baf014055195d0038d8b03d31/jetified-play-services-basement-16.0.1/res/values-mk/values.xml",

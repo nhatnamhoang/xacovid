@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app_settings/intermediates/incremental/mergeReleaseResources/merged.dir/values-kn/values-kn.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/app_settings/intermediates/incremental/mergeReleaseResources/merged.dir/values-kn/values-kn.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/res/values-kn/values-kn.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app_settings/intermediates/res/merged/release/values-kn/values-kn.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/app_settings/intermediates/res/merged/release/values-kn/values-kn.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/f40f838e3f29f1876272bf4d65ab0dc7/core-1.1.0/res/values-kn/values-kn.xml",

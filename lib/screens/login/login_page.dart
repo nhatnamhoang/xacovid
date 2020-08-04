@@ -148,7 +148,7 @@ class _LoginWidgetState extends State<LoginWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0xFFf9f9f9),
         body: signInStart == false ? welcomeUI() : loadingUI(brandName));
   }
 
@@ -157,7 +157,7 @@ class _LoginWidgetState extends State<LoginWidget> {
     double w = MediaQuery.of(context).size.width;
     double h = MediaQuery.of(context).size.height;
     return Container(
-      color: Colors.white,
+      color:  Color(0xFFf9f9f9),
       child: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
@@ -350,7 +350,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                             },
                             child: new Container(
                               child: Text(
-                                "Dùng thử ứng dụng",
+                                "Vào app ngay",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     color: Colors.white,
@@ -386,7 +386,7 @@ class Slide {
 
 final slideList = [
   Slide(
-    imageUrl: 'assets/images/slider1.png',
+    imageUrl: 'assets/images/slider1.jpg',
   ),
   Slide(
     imageUrl: 'assets/images/slider2.png',
@@ -407,8 +407,8 @@ class SlideItem extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         Container(
-          width: 300,
-          height: 300,
+          width: 800,
+          height: 400,
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage(slideList[index].imageUrl),

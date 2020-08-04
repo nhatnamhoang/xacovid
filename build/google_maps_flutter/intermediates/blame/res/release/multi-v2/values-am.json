@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_maps_flutter/intermediates/res/merged/release/values-am/values-am.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/google_maps_flutter/intermediates/incremental/mergeReleaseResources/merged.dir/values-am/values-am.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/044f93c3ab57c4aab2759fbd5f08ebca/play-services-base-17.0.0/res/values-am/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/google_maps_flutter/intermediates/incremental/mergeReleaseResources/merged.dir/values-am/values-am.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/google_maps_flutter/intermediates/res/merged/release/values-am/values-am.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/044f93c3ab57c4aab2759fbd5f08ebca/play-services-base-17.0.0/res/values-am/values.xml",

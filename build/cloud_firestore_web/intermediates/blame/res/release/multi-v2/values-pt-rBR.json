@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore_web/intermediates/res/merged/release/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/cloud_firestore_web/intermediates/res/merged/release/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/98f59f8baf014055195d0038d8b03d31/jetified-play-services-basement-16.0.1/res/values-pt-rBR/values.xml",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/cloud_firestore_web/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/cloud_firestore_web/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/98f59f8baf014055195d0038d8b03d31/jetified-play-services-basement-16.0.1/res/values-pt-rBR/values.xml",

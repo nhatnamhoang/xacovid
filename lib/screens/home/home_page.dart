@@ -66,7 +66,7 @@ class PlacesCovidListWidget extends StatefulWidget {
 
 class _PlacesCovidListWidgetState extends State<PlacesCovidListWidget> {
   Location location;
-  double CAMERA_ZOOM = 18;
+  double CAMERA_ZOOM = 13;
   double CAMERA_TILT = 60;
   double CAMERA_BEARING = 10;
   Completer<GoogleMapController> _controller = Completer();
@@ -86,14 +86,33 @@ class _PlacesCovidListWidgetState extends State<PlacesCovidListWidget> {
     widget.homeBloc.polylinePoints;
     // subscribe to changes in the user's location
     // by "listening" to the location's onLocationChanged event
-    location.onLocationChanged.listen((LocationData cLoc) {
-      widget.homeBloc.setLocation(cLoc);
-    });
+
 
     // set custom marker pins
     widget.homeBloc.setDestinationsIcon();
     // set the initial location
     _checkPermisstionAndGetCurrentLocation();
+  }
+
+  void updatePinOnMap() async {
+    // create a new CameraPosition instance
+    // every time the location changes, so the camera
+    // follows the pin as it moves with an animation
+    widget.homeBloc.setSourceIcons();
+    // do this inside the setState() so Flutter gets notified
+    // that a widget update is due
+    var pinPosition =
+    LatLng(widget.homeBloc.currentLocation.latitude, widget.homeBloc.currentLocation.longitude);
+
+    // the trick is to remove the marker (by id)
+    // and add it again at the updated location
+    widget.homeBloc.markers.removeWhere((m) => m.markerId.value == 'sourcePin');
+    widget.homeBloc.markers.add(Marker(
+        markerId: MarkerId('sourcePin'),
+        onTap: () {
+        },
+        position: pinPosition, // updated position
+        icon: widget.homeBloc.sourceIcon));
   }
 
   _checkPermisstionAndGetCurrentLocation() async {
@@ -119,6 +138,12 @@ class _PlacesCovidListWidgetState extends State<PlacesCovidListWidget> {
       }
     }
 
+
+    location.onLocationChanged.listen((LocationData cLoc) {
+      widget.homeBloc.setLocation(cLoc);
+      print(cLoc);
+      updatePinOnMap();
+    });
     setInitialLocation();
   }
 
@@ -329,8 +354,7 @@ class _PlacesCovidListWidgetState extends State<PlacesCovidListWidget> {
 
   Widget _renderMap() {
     CameraPosition initialCameraPosition =
-        CameraPosition(zoom: CAMERA_ZOOM, target: LatLng(widget.homeBloc.currentLocation.latitude,
-            widget.homeBloc.currentLocation.longitude));
+        CameraPosition(zoom: CAMERA_ZOOM, target: SOURCE_LOCATION);
     if (widget.homeBloc.currentLocation != null) {
       initialCameraPosition = CameraPosition(
         target: LatLng(widget.homeBloc.currentLocation.latitude,

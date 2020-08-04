@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/freelancer/flutter_locationupdates/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "/Users/mac/Desktop/xacovid/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/8ebc22501cc66b04fd148753976c7c48/jetified-play-services-basement-17.0.0/res/values-be/values.xml",
